@@ -1,5 +1,5 @@
 body {
-	background: hsl(0, 3%, 29%)
+	background: hsl(209, 97%, 46%)
 }
 #banner {
 	width: 100%;
@@ -8,7 +8,7 @@ body {
 h1 {
 	text-align: center;
 	color:#ffffff;
-	border: 5px solid #0003b9;
+	border: 5px solid #010955;
 	padding: 20px;
 }
 p {
@@ -21,4 +21,8 @@ p {
 
 em strong {
 	color:#7cd0f7
+}
+.itens {
+	font-style: italic;
+	color: aquamarine;
 }
