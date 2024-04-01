@@ -1,5 +1,4 @@
 body {
-	
 }
 
 #banner {
@@ -11,16 +10,21 @@ body {
 	padding: 30px;
 }
 
-h1 {
-	text-align: center
+.titulo-principal {
+	padding-left: center;
 }
+
+.titulo-centralizado {
+	text-align: center;
+} 
 
 p {
 	text-align: center;
 }
 
 #missao {
-	font-size: 20px
+	font-size: 20px;
+	color: #47e4cf;
 }
 
 em strong {
@@ -44,8 +48,4 @@ ul {
 	vertical-align: top;
 	width: 20%;
 	margin-right: 15%;
-}
-
-.imagembeneficios {
-	width: 50%;
 }
