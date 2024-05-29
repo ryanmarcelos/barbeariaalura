@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Contato - Barbearia Alura</title>
+		<title>Contato- Barbearia Alura</title>
 
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
@@ -21,20 +21,47 @@
 				</nav>
 			</div>
 		</header>
-<main>
+<main> 
 <form>
-	<label> <for="nomesobrenome">Nome e Sobrenome</label>
-	<input type="text" id="nomesobrenome">
+    <label> <for="nomesobrenome">Nome e Sobrenome</label>
+    <input type="text" id="nomesobrenome" class="input padrao" required>
 
-	<label> <for="email>Email</label>
-	<input type="text" id="email">
+    <label><for="Email">Email</label>
+    <input type="email" id="Email" class="input padrao" required>
 
-	<label> <for="telefone">Telefone</label>
-	<input type=" text" id="telefone">
+    <label> <for="Telefone">Telefone</label>
+    <input type="tel" id="Telefone" class="input padrao" required>
 
-	<input type="submit" value="Enviar formulário">
+	<label for="Mensagem">Mensagem</label>
+<textarea cols="70" rows="10" id="Mensagem" class="input padrao" required></textarea>
+
+<div>
+	<p class="teste" id="teste">Como prefere o nosso contato?</p>
+	<label for="radio-Email"><input type="radio" name="contato"
+		 value="Email" id="radio-Email">Email</label>
+
+
+	<label for="radio-telefone"> <input type="radio" name="contato" 
+		value="telefone" id="radio-Telefone">Telefone</label>
+	
+
+	<label for="radio-whatsapp"><input type="radio" name="contato"
+		 value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+	
+</div> 
+<div>
+<p>Qual horário prefere ser atendido?</p>
+<select>
+	<option>Manhã</option>
+	<option>Tarde</option>
+	<option>Noite</option>
+</select>
+</div>
+
+<label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+
+<input type="submit" value="Enviar formulario" >
 </form>
-    
 </main>
         <footer>
 			<img src="logo-branco.png">
